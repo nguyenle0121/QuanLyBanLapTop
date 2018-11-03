@@ -23,7 +23,7 @@ namespace QuanLyBanLapTop
         {
             // Trạng thái chưa đăng nhập
             TrangThaiChuaDangNhap();
-
+            
             // Mở form Đăng nhập
             MoFormDangNhap();
         }
