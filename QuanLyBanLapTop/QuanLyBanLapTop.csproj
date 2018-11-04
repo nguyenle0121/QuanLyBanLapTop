@@ -90,6 +90,12 @@
     <Compile Include="frm_BaoCao.Designer.cs">
       <DependentUpon>frm_BaoCao.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_ChiTietSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ChiTietSanPham.Designer.cs">
+      <DependentUpon>frm_ChiTietSanPham.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +141,9 @@
     <EmbeddedResource Include="frm_BaoCao.resx">
       <DependentUpon>frm_BaoCao.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_ChiTietSanPham.resx">
+      <DependentUpon>frm_ChiTietSanPham.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_DangNhap.resx">
       <DependentUpon>frm_DangNhap.cs</DependentUpon>
     </EmbeddedResource>
@@ -163,7 +172,9 @@
     <EmbeddedResource Include="rdlc_SanPhamTheoLoai.rdlc">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="report\ChiTietSanPham.rdlc" />
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\DTO.SanPhamDTO.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

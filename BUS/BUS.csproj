@@ -40,9 +40,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChiTietHoaDonNhapBUS.cs" />
+    <Compile Include="ChiTietHoaDonXuatBUS.cs" />
     <Compile Include="HinhAnhSPBUS.cs" />
+    <Compile Include="HoaDonNhapBUS.cs" />
+    <Compile Include="HoaDonXuatBUS.cs" />
+    <Compile Include="KhachHangBUS.cs" />
+    <Compile Include="LoaiSPBUS.cs" />
+    <Compile Include="LoaiTaiKhoanBUS.cs" />
+    <Compile Include="NhaCungCapBUS.cs" />
+    <Compile Include="NhaSanXuatBUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SanPhamBUS.cs" />
+    <Compile Include="SeriesSPBUS.cs" />
     <Compile Include="ThongTinNhanVienBUS.cs" />
   </ItemGroup>
   <ItemGroup>
